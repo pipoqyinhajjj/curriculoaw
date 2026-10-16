@@ -1,0 +1,61 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #5c5a5a; 
+}
+
+.curriculo {
+width: 900px;
+margin: 30px auto;
+display: flex;
+background-color: rgb(178, 184, 240); 
+} 
+
+.lateral {
+width: 30%;
+padding: 30px;
+background-color: #1288db;
+color: rgb(255, 255, 255); 
+} 
+
+.lateral h1 {
+margin-bottom: 10px; 
+}
+
+.lateral h2 {
+margin-top: 25px;
+margin-bottom: 10px;
+margin-right: auto; 
+}
+
+.foto {
+margin-bottom: 20px;
+}
+.foto img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid rgb(0, 0, 0); 
+} 
+
+.conteudo {
+width: 70%;
+padding: 40px; 
+}
+.conteudo h1 {
+color: #5d73ac;
+border-bottom: 2px solid #5d73ac;
+padding-bottom: 8px;
+margin-bottom: 15px; 
+}
+
+.conteudo p {
+line-height: 1.6;
+margin-bottom: 20px; 
+} 
+
+.item{ 
+color: #5d73ac;
+border-bottom: 2px solid #8da9f0;
+padding-bottom: 8px;
+margin-bottom: 15px; }
